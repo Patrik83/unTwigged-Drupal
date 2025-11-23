@@ -1,0 +1,22 @@
+# Drupal core
+/core
+
+# Composer vendor
+/vendor
+
+# Configuration sync
+/config/sync
+
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# OS/IDE files
+.DS_Store
+.idea/
+.vscode/
+node_modules/

@@ -1,0 +1,5 @@
+services:
+  graphql_translatable_config_pages.services_access_checker:
+    class: Drupal\graphql_translatable_config_pages\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

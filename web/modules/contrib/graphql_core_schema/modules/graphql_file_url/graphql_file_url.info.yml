@@ -1,0 +1,13 @@
+name: graphql_file_url
+type: module
+description: GraphQL File URL extensions
+package: GraphQL
+core_version_requirement: ^9.3 || ^10 || ^11
+dependencies:
+  - graphql:graphql
+  - graphql_core_schema:graphql_core_schema
+
+# Information added by Drupal.org packaging script on 2025-01-10
+version: '1.0.22'
+project: 'graphql_core_schema'
+datestamp: 1736503776

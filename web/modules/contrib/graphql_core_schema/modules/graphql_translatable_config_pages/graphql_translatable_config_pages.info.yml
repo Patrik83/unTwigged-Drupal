@@ -1,0 +1,13 @@
+name: GraphQL Translatable Config Pages
+type: module
+description: GraphQL schema extension for the translatable config pages.
+package: GraphQL
+core_version_requirement: ^9.3 || ^10 || ^11
+dependencies:
+  - graphql_core_schema:graphql_core_schema
+  - translatable_config_pages:translatable_config_pages
+
+# Information added by Drupal.org packaging script on 2025-01-10
+version: '1.0.22'
+project: 'graphql_core_schema'
+datestamp: 1736503776

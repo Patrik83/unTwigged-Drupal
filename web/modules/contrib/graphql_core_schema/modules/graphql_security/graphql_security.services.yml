@@ -1,0 +1,11 @@
+services:
+  graphql_security.route_subscriber:
+    class: Drupal\graphql_security\Routing\GraphqlSecurityRouteSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  graphql_security.graphql_access_check:
+    class: Drupal\graphql_security\Routing\GraphqlSecurityAccessCheck
+    arguments: ['@request_stack']
+    tags:
+      - { name: access_check, applies_to: _graphql_security_query_access }
