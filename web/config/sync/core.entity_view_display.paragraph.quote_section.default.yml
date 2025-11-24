@@ -1,0 +1,24 @@
+uuid: 5324094e-5836-450e-9eec-8ef81ad7082d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote_section.field_quote_items
+    - paragraphs.paragraphs_type.quote_section
+  module:
+    - entity_reference_revisions
+id: paragraph.quote_section.default
+targetEntityType: paragraph
+bundle: quote_section
+mode: default
+content:
+  field_quote_items:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

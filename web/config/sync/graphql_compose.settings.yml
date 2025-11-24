@@ -52,6 +52,10 @@ entity_config:
       enabled: true
     project_section:
       enabled: true
+    quote_items:
+      enabled: true
+    quote_section:
+      enabled: true
   taxonomy_term:
     tags:
       enabled: false
@@ -96,6 +100,16 @@ field_config:
       field_section_description:
         enabled: true
       field_section_title:
+        enabled: true
+    quote_items:
+      field_image:
+        enabled: true
+      field_quote:
+        enabled: true
+      field_source:
+        enabled: true
+    quote_section:
+      field_quote_items:
         enabled: true
 settings:
   exclude_unpublished: true

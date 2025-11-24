@@ -1,0 +1,42 @@
+uuid: bf40b3b6-843b-48b5-b22c-c9bee3cc9c40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote_items.field_image
+    - field.field.paragraph.quote_items.field_quote
+    - field.field.paragraph.quote_items.field_source
+    - paragraphs.paragraphs_type.quote_items
+  module:
+    - media_library
+id: paragraph.quote_items.default
+targetEntityType: paragraph
+bundle: quote_items
+mode: default
+content:
+  field_image:
+    type: media_library_widget
+    weight: 3
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_quote:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_source:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

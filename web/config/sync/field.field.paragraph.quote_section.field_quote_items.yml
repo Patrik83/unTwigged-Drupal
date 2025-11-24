@@ -1,19 +1,18 @@
-uuid: db5a92d5-567a-47d6-ac8f-2fc45de6f5ca
+uuid: f32e0420-198a-449d-9b96-72c2155bc4e0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_sections
-    - node.type.portfolio
-    - paragraphs.paragraphs_type.project_section
+    - field.storage.paragraph.field_quote_items
+    - paragraphs.paragraphs_type.quote_items
     - paragraphs.paragraphs_type.quote_section
   module:
     - entity_reference_revisions
-id: node.portfolio.field_sections
-field_name: field_sections
-entity_type: node
-bundle: portfolio
-label: Sections
+id: paragraph.quote_section.field_quote_items
+field_name: field_quote_items
+entity_type: paragraph
+bundle: quote_section
+label: 'Quote items'
 description: ''
 required: false
 translatable: false
@@ -23,8 +22,7 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      quote_section: quote_section
-      project_section: project_section
+      quote_items: quote_items
     negate: 0
     target_bundles_drag_drop:
       project_items:
@@ -32,11 +30,11 @@ settings:
         enabled: false
       project_section:
         weight: 6
-        enabled: true
+        enabled: false
       quote_items:
         weight: 7
-        enabled: false
-      quote_section:
-        weight: 4
         enabled: true
+      quote_section:
+        weight: 8
+        enabled: false
 field_type: entity_reference_revisions
