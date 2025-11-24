@@ -48,6 +48,8 @@ entity_config:
       enabled: true
       query_load_enabled: true
   paragraph:
+    hero_section:
+      enabled: true
     project_items:
       enabled: true
     project_section:
@@ -85,6 +87,13 @@ field_config:
         enabled: true
         name_sdl: user
   paragraph:
+    hero_section:
+      field_image:
+        enabled: true
+      field_section_description:
+        enabled: true
+      field_title:
+        enabled: true
     project_items:
       field_body:
         enabled: true
