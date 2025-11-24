@@ -1,0 +1,19 @@
+uuid: 62a86ded-5ebf-46aa-9edc-e6199540bd6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_description
+    - paragraphs.paragraphs_type.project_section
+id: paragraph.project_section.field_section_description
+field_name: field_section_description
+entity_type: paragraph
+bundle: project_section
+label: 'Section description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

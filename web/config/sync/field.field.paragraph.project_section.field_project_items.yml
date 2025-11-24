@@ -1,0 +1,34 @@
+uuid: 45702c95-1a6c-4f4d-b9cc-1292f28abd26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_project_items
+    - paragraphs.paragraphs_type.project_items
+    - paragraphs.paragraphs_type.project_section
+  module:
+    - entity_reference_revisions
+id: paragraph.project_section.field_project_items
+field_name: field_project_items
+entity_type: paragraph
+bundle: project_section
+label: 'Project items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      project_items: project_items
+    negate: 0
+    target_bundles_drag_drop:
+      project_items:
+        weight: 3
+        enabled: true
+      project_section:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

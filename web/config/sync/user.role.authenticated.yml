@@ -1,0 +1,64 @@
+uuid: 2d7c48c1-88f2-44f7-93ca-5320b930025c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - media.type.document
+    - media.type.image
+    - node.type.about
+    - node.type.home
+    - node.type.portfolio
+    - node.type.projects
+  module:
+    - comment
+    - contact
+    - file
+    - filter
+    - graphql
+    - media
+    - node
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'create about content'
+  - 'create home content'
+  - 'create portfolio content'
+  - 'create projects content'
+  - 'delete about revisions'
+  - 'delete own about content'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own portfolio content'
+  - 'delete own projects content'
+  - 'delete portfolio revisions'
+  - 'delete projects revisions'
+  - 'edit own about content'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own portfolio content'
+  - 'edit own projects content'
+  - 'execute graphql_compose_server arbitrary graphql requests'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'update media'
+  - 'use graphql_compose_server graphql explorer'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'

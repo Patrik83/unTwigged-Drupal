@@ -1,0 +1,39 @@
+uuid: e64a5982-59e0-4ac9-b48b-695998e6e75c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio.field_sections
+    - field.field.node.portfolio.field_user
+    - node.type.portfolio
+  module:
+    - entity_reference_revisions
+    - user
+id: node.portfolio.default
+targetEntityType: node
+bundle: portfolio
+mode: default
+content:
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_user:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

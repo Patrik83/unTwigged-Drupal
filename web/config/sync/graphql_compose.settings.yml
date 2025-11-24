@@ -1,0 +1,115 @@
+_core:
+  default_config_hash: Sd_9jXBxw3mGn9d_y94jvlitI0wpvj6x2dQ0p6aGhJo
+entity_config:
+  image_style:
+    large:
+      enabled: true
+    media_library:
+      enabled: true
+    medium:
+      enabled: true
+    thumbnail:
+      enabled: true
+    wide:
+      enabled: true
+  media:
+    audio:
+      enabled: false
+    document:
+      enabled: false
+    image:
+      enabled: true
+    remote_video:
+      enabled: false
+    video:
+      enabled: false
+  menu:
+    account:
+      enabled: false
+    admin:
+      enabled: false
+    footer:
+      enabled: false
+    main:
+      enabled: false
+    tools:
+      enabled: false
+  node:
+    about:
+      enabled: true
+      query_load_enabled: true
+    home:
+      enabled: true
+      query_load_enabled: true
+    portfolio:
+      enabled: true
+      query_load_enabled: true
+    projects:
+      enabled: true
+      query_load_enabled: true
+  paragraph:
+    project_items:
+      enabled: true
+    project_section:
+      enabled: true
+  taxonomy_term:
+    tags:
+      enabled: false
+  user:
+    user:
+      enabled: true
+      query_load_enabled: true
+field_config:
+  media:
+    image:
+      field_media_image:
+        enabled: true
+  node:
+    about:
+      field_sections:
+        enabled: true
+    portfolio:
+      field_sections:
+        enabled: true
+      field_user:
+        enabled: true
+        name_sdl: user
+    projects:
+      field_sections:
+        enabled: true
+      field_user:
+        enabled: true
+        name_sdl: user
+  paragraph:
+    project_items:
+      field_body:
+        enabled: true
+      field_image:
+        enabled: true
+      field_preamble:
+        enabled: true
+      field_title:
+        enabled: true
+    project_section:
+      field_project_items:
+        enabled: true
+      field_section_description:
+        enabled: true
+      field_section_title:
+        enabled: true
+settings:
+  exclude_unpublished: true
+  expose_entity_ids: true
+  field_required_override: false
+  schema_description: 'GraphQL Compose'
+  schema_version: '1'
+  simple_queries: true
+  simple_unions: true
+  site_name: false
+  site_slogan: false
+  site_front: true
+  svg_image: false
+  svg_filesize: 100
+  inflector_langcode: en
+  inflector_singularize: true
+  custom: {  }
