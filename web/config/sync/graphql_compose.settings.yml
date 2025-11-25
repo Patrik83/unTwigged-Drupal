@@ -74,6 +74,9 @@ field_config:
     about:
       field_sections:
         enabled: true
+    home:
+      field_sections:
+        enabled: true
     portfolio:
       field_sections:
         enabled: true
@@ -92,6 +95,7 @@ field_config:
         enabled: true
       field_section_description:
         enabled: true
+        name_sdl: description
       field_title:
         enabled: true
     project_items:
