@@ -82,12 +82,7 @@ field_config:
       field_user:
         enabled: true
         name_sdl: user
-    projects:
-      field_sections:
-        enabled: true
-      field_user:
-        enabled: true
-        name_sdl: user
+    projects: {  }
   paragraph:
     hero_section:
       field_image:

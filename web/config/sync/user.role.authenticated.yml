@@ -9,7 +9,6 @@ dependencies:
     - node.type.about
     - node.type.home
     - node.type.portfolio
-    - node.type.projects
   module:
     - comment
     - contact
@@ -38,20 +37,16 @@ permissions:
   - 'create about content'
   - 'create home content'
   - 'create portfolio content'
-  - 'create projects content'
   - 'delete about revisions'
   - 'delete own about content'
   - 'delete own files'
   - 'delete own image media'
   - 'delete own portfolio content'
-  - 'delete own projects content'
   - 'delete portfolio revisions'
-  - 'delete projects revisions'
   - 'edit own about content'
   - 'edit own document media'
   - 'edit own image media'
   - 'edit own portfolio content'
-  - 'edit own projects content'
   - 'execute graphql_compose_server arbitrary graphql requests'
   - 'post comments'
   - 'search content'
