@@ -37,7 +37,6 @@ entity_config:
   node:
     about:
       enabled: true
-      query_load_enabled: true
     home:
       enabled: true
       query_load_enabled: true

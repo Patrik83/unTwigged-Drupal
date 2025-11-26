@@ -5,7 +5,10 @@ dependencies:
   config:
     - field.storage.node.field_sections
     - node.type.portfolio
+    - paragraphs.paragraphs_type.hero_section
+    - paragraphs.paragraphs_type.project_items
     - paragraphs.paragraphs_type.project_section
+    - paragraphs.paragraphs_type.quote_items
     - paragraphs.paragraphs_type.quote_section
   module:
     - entity_reference_revisions
@@ -24,18 +27,24 @@ settings:
   handler_settings:
     target_bundles:
       quote_section: quote_section
+      project_items: project_items
+      hero_section: hero_section
       project_section: project_section
+      quote_items: quote_items
     negate: 0
     target_bundles_drag_drop:
+      hero_section:
+        weight: 6
+        enabled: true
       project_items:
         weight: 5
-        enabled: false
+        enabled: true
       project_section:
         weight: 6
         enabled: true
       quote_items:
         weight: 7
-        enabled: false
+        enabled: true
       quote_section:
         weight: 4
         enabled: true
