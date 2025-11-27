@@ -1,0 +1,10 @@
+uuid: 3ebe0f19-e3eb-4360-9caa-3894c65b24b6
+langcode: en
+status: true
+dependencies: {  }
+id: node__portfolio
+label: 'Content: Portfolio'
+tags:
+  description: '[node:summary]'
+  og_title: '[node:title]'
+  title: '[node:title]'
